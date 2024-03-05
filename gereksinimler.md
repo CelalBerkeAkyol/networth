@@ -29,4 +29,5 @@
 [Celal Berke Akyol Gereksinimleri](celal-berke-akyol-gereksinim.md)
 <br>
 [Emre Akcan Gereksinimleri](Emre-Akcan.md)
-
+<br>
+[Mehmet Barış Güdül'ün Gereksinimleri](mehmet-barış-güdül-gereksinim.md)
