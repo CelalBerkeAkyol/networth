@@ -1,7 +1,7 @@
 <h1>Gereksinimler</h1>
 1. Üye olma (Mehmet Barış Güdül) <br>
 2. Giriş yapma (Mehmet Barış Güdül) <br>
-3. Profil oluşturma (mehmet Barış Güdül) <br> 
+3. Profil oluşturma (Mehmet Barış Güdül) <br> 
 4. Profil düzenleme (Emre Akcan)  <br>
 5. Profil fotoğrafı ayarlama (Emre Akcan) <br>
 6. Arama (Celal Berke Akyol) <br>
