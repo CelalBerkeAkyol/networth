@@ -1,9 +1,9 @@
 # NETWORTH
 **Proje tanımı** : NetWorth, profesyonellerin, girişimcilerin ve iş dünyasındaki liderlerin bir araya geldiği etkileşimli ve bağlantı odaklı bir sosyal ağ platformudur. Bu platform, kullanıcılarına kariyerlerini güçlendirmek, iş fırsatlarını keşfetmek ve sektördeki en yeni gelişmeleri takip etmek için bir araç sunar.
 <br>
-**Proje Kategorisi **: Sosyal Medya
+**Proje Kategorisi**: Sosyal Medya
 <br>
-**Referans uygulama**: linkedin.com
+**Referans uygulama**:https://www.linkedin.com/
 <br>
 **Uygulama adresi**: null
 <br>
