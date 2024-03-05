@@ -23,8 +23,10 @@
 21. Gönderi oluşturma  <br>
 22. Gönderi silme <br>
 23. Gönderiye yorum yapma <br>
-24. Gönderi paylaşma <br>
-<h2>Gereksinim Dağılımları</h2>
+24. Gönderi paylaşma 
 <br>
+<h2>Gereksinim Dağılımları</h2>
+<br> 
+
 [Celal Berke Akyol Gereksinimleri](celal-berke-akyol-gereksinim.md)
 
