@@ -1,14 +1,14 @@
 <h1>Gereksinimler</h1>
-1. Üye olma <br>
-2. Giriş yapma <br>
-3. Profil oluşturma <br> 
+1. Üye olma (Mehmet Barış Güdül) <br>
+2. Giriş yapma (Mehmet Barış Güdül) <br>
+3. Profil oluşturma (mehmet Barış Güdül) <br> 
 4. Profil düzenleme (Emre Akcan)  <br>
 5. Profil fotoğrafı ayarlama (Emre Akcan) <br>
 6. Arama (Celal Berke Akyol) <br>
 7. Profil görüntüleme (Celal Berke Akyol) <br>
 8. Bağlantı kurmak (Celal Berke Akyol) <br>
-9. Bağlantı silme/çıkarma  <br>
-10. Bağlantılar listesi <br>
+9. Bağlantı silme/çıkarma (Mehmet Barış Güdül) <br>
+10. Bağlantılar listesi (Mehmet Barış Güdül) <br>
 11. Kullanıcı önerme (Celal Berke Akyol) <br>
 12. Grup oluşturma (Ali Önsöz) <br>
 13. Gruba katılma (Ali Önsöz) <br>
@@ -16,7 +16,7 @@
 15. Gruptan çıkma (Ali Önsöz)  <br>
 16. Grup silme (Ali Önsöz) <br>
 17. Şikayet etme (Ali Önsöz) <br>
-18. Kullanıcı engelleme  <br>
+18. Kullanıcı engelleme (Mehmet Barış Güdül) <br>
 19. Mesaj gönderme (Celal Berke Akyol)<br>
 20. Mesaj filtreleme (Celal Berke Akyol)<br>
 21. Gönderi oluşturma (Emre Akcan)  <br>
