@@ -27,5 +27,6 @@
 <h2>Gereksinim Dağılımları</h2>
 
 [Celal Berke Akyol Gereksinimleri](celal-berke-akyol-gereksinim.md)
+<br>
 [Emre Akcan Gereksinimleri](Emre-Akcan.md)
 
