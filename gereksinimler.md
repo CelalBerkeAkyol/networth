@@ -1,3 +1,4 @@
+<h1>Gereksinimler</h1>
 1. Üye olma
 2. Giriş yapma
 3. Profil oluşturma 
@@ -22,3 +23,4 @@
 22. Gönderi silme
 23. Gönderiye yorum yapma
 24. Gönderi paylaşma
+<h2>Gereksinim Dağılımları</h2>
