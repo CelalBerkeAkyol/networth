@@ -6,14 +6,14 @@
 5. Profil fotoğrafı ayarlama <br>
 6. Arama (Celal Berke Akyol) <br>
 7. Profil görüntüleme (Celal Berke Akyol) <br>
-8. Bağlantı kurmak <br>
+8. Bağlantı kurmak (Celal Berke Akyol) <br>
 9. Bağlantı silme/çıkarma  <br>
 10. Bağlantılar listesi <br>
 11. Kullanıcı önerme (Celal Berke Akyol) <br>
 12. Grup oluşturma (Ali Önsöz) <br>
 13. Gruba katılma (Ali Önsöz) <br>
 14. Gruptakilerin listelenmesi (Ali Önsöz) <br>
-15. Gruptan çıkma (Ali Önsöz) (Celal Berke Akyol) <br>
+15. Gruptan çıkma (Ali Önsöz)  <br>
 16. Grup silme (Ali Önsöz) <br>
 17. Şikayet etme (Ali Önsöz) <br>
 18. Kullanıcı engelleme  <br>
