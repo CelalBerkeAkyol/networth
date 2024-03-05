@@ -25,3 +25,5 @@
 23. Gönderiye yorum yapma <br>
 24. Gönderi paylaşma <br>
 <h2>Gereksinim Dağılımları</h2>
+<br>
+[Celal Berke Akyol'un Gereksinimleri](Celal Berke Akyol'un Gereksinimleri.md)
