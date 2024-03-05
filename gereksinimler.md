@@ -2,8 +2,8 @@
 1. Üye olma <br>
 2. Giriş yapma <br>
 3. Profil oluşturma <br> 
-4. Profil düzenleme <br>
-5. Profil fotoğrafı ayarlama <br>
+4. Profil düzenleme (Emre Akcan)  <br>
+5. Profil fotoğrafı ayarlama (Emre Akcan) <br>
 6. Arama (Celal Berke Akyol) <br>
 7. Profil görüntüleme (Celal Berke Akyol) <br>
 8. Bağlantı kurmak (Celal Berke Akyol) <br>
@@ -19,10 +19,10 @@
 18. Kullanıcı engelleme  <br>
 19. Mesaj gönderme (Celal Berke Akyol)<br>
 20. Mesaj filtreleme (Celal Berke Akyol)<br>
-21. Gönderi oluşturma  <br>
-22. Gönderi silme <br>
-23. Gönderiye yorum yapma <br>
-24. Gönderi paylaşma 
+21. Gönderi oluşturma (Emre Akcan)  <br>
+22. Gönderi silme (Emre Akcan) <br>
+23. Gönderiye yorum yapma (Emre Akcan) <br>
+24. Gönderi paylaşma (Emre Akcan)
 <br>
 <h2>Gereksinim Dağılımları</h2>
 
