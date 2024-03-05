@@ -1,5 +1,4 @@
 <h1>Gereksinimler</h1>
-<br>
 1. Üye olma <br>
 2. Giriş yapma <br>
 3. Profil oluşturma <br> 
@@ -26,7 +25,6 @@
 24. Gönderi paylaşma 
 <br>
 <h2>Gereksinim Dağılımları</h2>
-<br> 
 
 [Celal Berke Akyol Gereksinimleri](celal-berke-akyol-gereksinim.md)
 
