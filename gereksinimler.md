@@ -30,4 +30,4 @@
 <br>
 [Emre Akcan Gereksinimleri](Emre-Akcan.md)
 <br>
-[Mehmet Barış Güdül'ün Gereksinimleri](mehmet-barış-güdül-gereksinim.md)
+[Mehmet Barış Güdül Gereksinimleri](mehmet-barış-güdül-gereksinim.md)
