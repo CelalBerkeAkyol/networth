@@ -10,12 +10,12 @@
 9. Bağlantı silme/çıkarma  <br>
 10. Bağlantılar listesi <br>
 11. Kullanıcı önerme (Celal Berke Akyol) <br>
-12. Grup oluşturma <br>
-13. Gruba katılma <br>
-14. Gruptakilerin listelenmesi <br>
-15. Gruptan çıkma (Celal Berke Akyol) <br>
-16. Grup silme <br>
-17. Şikayet etme <br>
+12. Grup oluşturma (Ali Önsöz) <br>
+13. Gruba katılma (Ali Önsöz) <br>
+14. Gruptakilerin listelenmesi (Ali Önsöz) <br>
+15. Gruptan çıkma (Ali Önsöz) (Celal Berke Akyol) <br>
+16. Grup silme (Ali Önsöz) <br>
+17. Şikayet etme (Ali Önsöz) <br>
 18. Kullanıcı engelleme  <br>
 19. Mesaj gönderme (Celal Berke Akyol)<br>
 20. Mesaj filtreleme (Celal Berke Akyol)<br>
