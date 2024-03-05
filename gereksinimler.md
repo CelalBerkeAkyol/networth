@@ -1,26 +1,27 @@
 <h1>Gereksinimler</h1>
-1. Üye olma
-2. Giriş yapma
-3. Profil oluşturma 
-4. Profil düzenleme 
-5. Profil fotoğrafı ayarlama
-6. Arama
-7. Profil görüntüleme 
-8. Bağlantı kurmak
-9. Bağlantı silme/çıkarma 
-10. Bağlantılar listesi
-11. Kullanıcı önerme 
-12. Grup oluşturma 
-13. Gruba katılma 
-14. Gruptakilerin listelenmesi
-15. Gruptan çıkma 
-16. Grup silme
-17. Şikayet etme
-18. Kullanıcı engelleme 
-19. Mesaj gönderme 
-20. Mesaj filtreleme
-21. Gönderi oluşturma 
-22. Gönderi silme
-23. Gönderiye yorum yapma
-24. Gönderi paylaşma
+<br>
+1. Üye olma <br>
+2. Giriş yapma <br>
+3. Profil oluşturma <br> 
+4. Profil düzenleme <br>
+5. Profil fotoğrafı ayarlama <br>
+6. Arama <br>
+7. Profil görüntüleme <br>
+8. Bağlantı kurmak <br>
+9. Bağlantı silme/çıkarma  <br>
+10. Bağlantılar listesi <br>
+11. Kullanıcı önerme <br>
+12. Grup oluşturma <br>
+13. Gruba katılma <br>
+14. Gruptakilerin listelenmesi <br>
+15. Gruptan çıkma <br>
+16. Grup silme <br>
+17. Şikayet etme <br>
+18. Kullanıcı engelleme  <br>
+19. Mesaj gönderme <br>
+20. Mesaj filtreleme <br>
+21. Gönderi oluşturma  <br>
+22. Gönderi silme <br>
+23. Gönderiye yorum yapma <br>
+24. Gönderi paylaşma <br>
 <h2>Gereksinim Dağılımları</h2>
