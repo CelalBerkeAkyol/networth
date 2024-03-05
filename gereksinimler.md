@@ -31,3 +31,5 @@
 [Emre Akcan Gereksinimleri](Emre-Akcan.md)
 <br>
 [Mehmet Barış Güdül Gereksinimleri](mehmet-barış-güdül-gereksinim.md)
+<br>
+[Ali Önsöz Gereksinimleri](ali-önsöz.md)
