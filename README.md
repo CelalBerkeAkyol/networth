@@ -9,6 +9,6 @@
 <br>
 **Grup Adı**: NetWorth
 <br>
-**Proje Ekibi**: Celal Berke Akyol, Barış Güdül, Emre Akcan, Ali Önsöz
+**Proje Ekibi**: Celal Berke Akyol, Mehmet Barış Güdül, Emre Akcan, Ali Önsöz
 <br>
 [2- Gereksinim Analizi](gereksinimler.md)
