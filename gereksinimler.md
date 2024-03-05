@@ -26,4 +26,5 @@
 24. Gönderi paylaşma <br>
 <h2>Gereksinim Dağılımları</h2>
 <br>
-[Celal Berke Akyol'un Gereksinimleri](Celal_Berke_Akyol'un_Gereksinimleri.md)
+Celal Berke Akyol Gereksinimleri
+[Celal Berke Akyol Gereksinimleri](https://github.com/CelalBerkeAkyol/networth/blob/main/Celal_Berke_Akyol'un_Gereksinimleri.md)https://github.com/CelalBerkeAkyol/networth/blob/main/Celal_Berke_Akyol'un_Gereksinimleri.md
