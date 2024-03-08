@@ -11,4 +11,6 @@
 <br>
 **Proje Ekibi**: Celal Berke Akyol, Mehmet Barış Güdül, Emre Akcan, Ali Önsöz
 <br>
+[1- Proje Planı ](proje-planı.md)
+<br>
 [2- Gereksinim Analizi](gereksinimler.md)
