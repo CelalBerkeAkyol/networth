@@ -1,5 +1,5 @@
 <h1>// Celal Berke Akyol'un Gereksinimleri</h1>
-**Arama :** Kullanıcılar site üzerinde kişi, şirket, grup ve okul arması yapabilecek. 
+**Arama:** Kullanıcılar site üzerinde kişi, şirket, grup ve okul arması yapabilecek. 
 <br>
 **Kullanıcı önerme:** Arkadaşlarından, okuduğu okuldan, şirketinden vb durumlardan yola çıkarak kullanıcıya bağlantı kurmak isteyeceği kullanıcılar önerilir.
 <br>
