@@ -14,3 +14,5 @@
 [1- Proje Planı ](proje-planı.md)
 <br>
 [2- Gereksinim Analizi](gereksinimler.md)
+<br>
+[3- Durum Diyagram](durum-diyagramı.md)
