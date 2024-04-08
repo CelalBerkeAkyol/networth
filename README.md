@@ -16,4 +16,5 @@
 [2- Gereksinim Analizi](gereksinimler.md)
 <br>
 [3- Durum Diyagram](durum-diyagramı.md)<br>
-[4- Durum Senaryoları](kullanıcı-durum-senaryoları.md)
+[4- Durum Senaryoları](kullanıcı-durum-senaryoları.md)<br>
+[5- Veri Tabanı Diyagramı](veri-tabanı-diyagramı.md)
