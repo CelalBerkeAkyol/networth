@@ -1,0 +1,313 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Dropdown Menu */
+.artdeco-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.artdeco-dropdown__trigger {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.artdeco-dropdown__content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: none;
+}
+
+.artdeco-dropdown:hover .artdeco-dropdown__content {
+  display: block;
+}
+
+/* Search Bar */
+.mn-connections__search-input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+
+
+/* Connection Cards */
+.mn-connection-card {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  
+  justify-content: space-between;
+}
+
+.mn-connection-card__picture img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.mn-connection-card__details {
+  display:flex ;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.mn-connection-card__name {
+  flex-grow: 1;
+}
+
+.mn-connection-card__occupation {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.mn-connection-card__action-container {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.mn-connections__actions-container .artdeco-divider {
+  display: none;
+}
+
+
+.artdeco-button{
+  margin-left: auto;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: 167ms;
+  align-items:center;
+  border: none;
+  border-radius: 100px; /* Adjust as needed */
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 6000;
+  display:inline-flex;
+  justify-content: center;
+  min-width: 6rem; /* Adjust as needed */
+  max-width: 480px; /* Adjust as needed */
+  overflow: hidden;
+  text-align: center;
+  transition-property: background-color, box-shadow, color;
+  vertical-align:auto;
+  
+  /* Additional styles (optional) */
+  /* You can add properties like background-color, padding, margin, etc. */
+}
+
+
+.artdeco-button--secondary {
+  background-color: #0a66c2;
+}
+.mn-connection-card__link {
+  color: black; /* Change to your desired color */
+}
+.artdeco-button__text {
+  color: white; /* Change to your desired color */
+  
+}
+.display-flex {
+  display: flex !important;
+  flex-direction: row;
+  
+}
+.align-items-center {
+  align-items: center !important;
+  
+}
+.scaffold-layout .artdeco-card {
+  border-radius: 0 !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.artdeco-card {
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+.mb4 {
+  margin-bottom: 1.6rem !important;
+}
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, summary, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+  margin: var(--artdeco-reset-base-margin-zero);
+  padding: var(--artdeco-reset-base-padding-zero);
+  border: var(--artdeco-reset-base-border-zero);
+  font-size: var(--artdeco-reset-base-font-size-hundred-percent);
+  vertical-align: var(--artdeco-reset-base-vertical-align-baseline);
+  background: var(--artdeco-reset-base-background-transparent);
+}
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.large-header, .large-text, .medium-text, .small-text, blockquote, body, h1, h2, h3, h4, h5, p {
+  color: var(--color-text);
+}
+body, p {
+  font-weight: var(--artdeco-reset-typography-font-weight-normal);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--artdeco-reset-typography-get-color-black-90);
+}
+body {
+  line-height: var(--artdeco-reset-base-line-height-1);
+}
+html.artdeco {
+  -webkit-font-smoothing: antialiased;
+}
+.mn-connection-card__link {
+  text-decoration: none; /* Link altındaki çizgiyi kaldırır */
+}
+.output-box {
+  border: 2px solid white; /* Kutu kenarlarını oluşturacak çerçeve stilini tanımlar */
+  padding: 21px; /* İçeriği kutunun kenarlarından ayırır */
+  margin: 21px auto; /* Kutuyu diğer öğelerden ayırır */
+  border-radius: 20px; /* Kutunun köşelerini yuvarlar */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+  width: 600px; 
+  height: 800px;
+}
+.entry-point {
+  margin-left: auto;
+}
+
+.mn-connections__actions-container {
+  display: inline-flexbox;
+  justify-content: center; /* Sayfanın ortasına hizalamak için */
+  align-items: center;
+  flex-wrap: wrap; /* Kartlar çoklu satırlarda sıralanacak şekilde ayarlandı */
+  gap: 20px; /* Kartlar arasındaki boşluk */
+  margin-top: 20px; /* Yukarıdan boşluk */
+  margin-bottom: 20px; /* Aşağıdan boşluk */
+}
+.mn-connection-card.artdeco-list {
+  width: 100%; /* Div'in genişliğini istediğiniz boyuta ayarlayabilirsiniz */
+  height: auto; /* İsteğe bağlı olarak, div'in yüksekliğini otomatik olarak ayarlayabilirsiniz */
+  /* Diğer özel stillendirmeler */
+}
+.mn-connections__header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Renk değişikliği */
+  text-transform: uppercase; /* Metni büyük harfe dönüştürme */
+  margin-bottom: 0.5rem; /* Alt boşluk miktarını azaltma */
+  text-align: center;
+}
+
+.navbarMain
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 5px 15% !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.navbar-left
+{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+.logo img
+{
+    width: 30px;
+    margin-right: 15px;
+    display:block;
+}
+.navbar-center ul {
+    list-style: none; 
+    padding-top: 20px;
+    padding-right: 20px; 
+}
+.navbar-center ul li
+{
+    display: inline-block;
+    
+}
+
+.navbar-center ul li a
+{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 8px;
+    padding-right: 5px;
+    position: relative;
+    color: #5f5f5f;
+}
+
+.navbar-center ul li a img
+{
+    width: 30px;    
+}
+
+.navbar-center ul li a::after
+{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #045be6;
+    position: absolute;
+    bottom: -15px;
+    transition: width 0.3s;
+}
+
+.navbar-center ul li a:hover::after
+{
+  width:100%;
+}
+.online
+{
+    position: relative;
+}
+
+.online::after
+{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border:  2px solid #fff;
+    border-radius: 50%;
+    right: 0px;
+    top: 0px;
+    background: #41db51;
+    position:absolute;
+}
+.nav-profile-img
+{
+    width: 40px;
+    border-radius: 50%; 
+    display:block;
+    cursor: pointer;
+    position:relative;
+}
