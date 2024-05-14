@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Oluştur</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center; /* Navigasyonu ortalama */
+            padding: 20px 0; /* Üst ve alt boşluk */
+        }
+        nav {
+            margin: 0 auto; /* Navigasyonu merkeze al */
+            display: inline-block; /* Logonun yanına navigasyonu al */
+        }
+        nav a {
+            display: inline-block; /* Navigasyon bağlantılarını yan yana yerleştir */
+            margin-right: 20px; /* Bağlantılar arası boşluk */
+        }
+        .container {
+            max-width: 400px;
+            margin: 40px auto; /* 80px'den 40px'ye indirdim */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            height: 32px !important;
+            background-color: var(--color-input-container) !important;
+            border-color: var(--color-input-container-border) !important;
+            color: var(--color-input-value) !important;
+        }
+        button[type="submit"] {
+            width: 100%;
+            background-color: #0073b1;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 24px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition-duration: 167ms;
+            transition-property: background-color, box-shadow, color;
+            transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            box-sizing: border-box;
+        }
+        button[type="submit"]:hover {
+            background-color: #005a8d;
+        }
+        .input__label {
+            color: var(--color-input-label) !important;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            display: block;
+            --artdeco-reset-typography_getFontSize: 1.4rem;
+            font-size: var(--artdeco-reset-typography_getFontSize);
+            --artdeco-reset-typography_getLineHeight: 1.42857;
+            line-height: var(--artdeco-reset-typography_getLineHeight);
+            font-weight: var(--artdeco-reset-typography-font-weight-normal);
+            color: rgba(0, 0, 0, 0.9);
+            margin: 16px 0 4px 0;
+        }
+        p {
+            text-align: center; /* Yazıyı ortala */
+            font-size: 18px; /* Yazı boyutunu büyüt */
+            margin-bottom: 20px; /* Alt boşluk ekle */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" id="logo"><img src="../img/images/LinkedIn-Blue-48-Γäó@2x.png" alt="LinkedIN"
+                    style="width: 135px; height: 33px;"></a>
+        </nav>
+    </header>
+    <p>Profesyonel hayatınızdan en iyi şekilde yararlanın</p>
+    <div class="container">
+        <h2>Hesap Oluştur</h2>
+        <form action="EmptyProfile.html" method="get">
+            <label class="input__label" for="fname">İsim</label>
+            <input class="input__input" type="text" id="fname" name="firstname" placeholder="İsminizi giriniz.">
+
+            <label class="input__label" for="lname">Soyisim</label>
+            <input class="input__input" type="text" id="lname" name="lastname" placeholder="Soyisminizi giriniz.">
+
+            <label class="input__label" for="email">E-posta</label>
+            <input class="input__input" type="email" id="email" name="email" placeholder="E-posta adresinizi giriniz.">
+
+            <label class="input__label" for="number">Telefon Numarası</label>
+            <input class="input__input" type="number" id="number" name="number" placeholder="Telefon numaranızı giriniz.">
+
+            <label class="input__label" for="password">Şifre</label>
+            <input class="input__input" type="password" id="password" name="password" placeholder="Şifrenizi giriniz.">
+
+            <button type="submit">Kayıt Ol</button>
+        </form>
+    </div>
+
+</body>
+</html>
