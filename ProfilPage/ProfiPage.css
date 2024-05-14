@@ -1030,3 +1030,51 @@ button {
     display: flex;
   }
 }
+/* önerilen kişilerin başlangıcı -- celal berke akyol */
+.sidebar-people
+{
+    background: #fff;
+    padding: 15px 25px;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+.sidebar-people h3
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+}
+
+.sidebar-people-row
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 6px 0;
+
+}
+
+.sidebar-people-row img
+{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.sidebar-people-row h2
+{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sidebar-people-row a
+{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 25px;
+    border: 1px solid #000000;
+    border-width: 1px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+/* önerilen kişilerin bitisi */
