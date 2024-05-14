@@ -779,3 +779,29 @@ button
 {
     width: 100%;
 }
+/* search box css kodları başlangıç -- celal berke akyol */
+.search-box
+{
+    background: #f0f2f5;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+.search-box img
+{
+    width: 14px;
+}
+.search-box input
+{
+    flex: 1;
+    background: transparent;
+    padding: 8px ;
+    outline: none;
+    border: 0;
+
+}
+/* search box css kodları bitiş -- celal berke akyol */
