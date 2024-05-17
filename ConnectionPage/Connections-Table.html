@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="connectionsTable.css" />
+  </head>
+  <body>
+    <!-- navbar başlangıç -->
+    <nav class="navbarMain">
+        <div class="navbar-left">
+            <a href="../HomePage/HomePage.html" class="logo"><img src="HomePageİmages/logo.png"></a>
+
+            <div class="search-box">
+              <img src="HomePageİmages/search.png">
+              <input type="text" placeholder="Search">
+          </div>
+
+        </div>
+
+        <div class="navbar-center">
+            <ul>
+                <li><a href="../HomePage/HomePage.html" class="active-link"><img src="HomePageİmages/home.png"> <span>Anasayfa</span></a></li>
+                <li><a href="../ConnectionPage/Connections-Table.html"><img src="HomePageİmages/network.png"> <span>Ağım</span></a></li>
+                <li><a href=""><img src="HomePageİmages/jobs.png"> <span>İş Alanları</span></a></li>
+                <li><a href="../Message/mesage.html"><img src="HomePageİmages/message.png"> <span>Mesajlaşma</span></a></li>
+                <li><a href=""><img src="HomePageİmages/notification.png"> <span>Bildirimler</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <a href="../ProfilPage/ProfilPage.html"><img src="HomePageİmages/Celalberkeakyol.jpg" class="nav-profile-img" ></a>
+            </div>
+        </div>
+
+      
+    
+        
+
+
+
+    </nav>
+    <!-- navibar close-->
+    <!-- main content başlangıç -->
+    <div class="output-box">
+      <div id="ember214" class="self-focused ember-wiev">
+        <section class="artdeco-card mn-connections mb4">
+          <header class="mn-connections__header">
+            <h1 class="t-18 t-black t-normal">8 Bağlantı</h1>
+          </header>
+          <div class="mn-connections__actions-container ph5 pb3">
+            <!-- Sıralama ölçütü -->
+            <div
+              class="display-flex align-items-center pt3 pb2 t-14 t-black--light t-normal"
+            >
+              <p class="t-14 t-black--light t-normal">Sıralama ölçütü:</p>
+              <!-- Dropdown -->
+              <div
+                id="ember215"
+                class="artdeco-dropdown artdeco-dropdown--placement-bottom artdeco-dropdown--justification-left ember-view"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-label="Sıralama ölçütü, Son Eklenen açılır liste"
+                  id="ember216"
+                  class="artdeco-dropdown__trigger artdeco-dropdown__trigger--placement-bottom ember-view t-black--light v-align-top"
+                  type="button"
+                  tabindex="0"
+                >
+                  <span class="t-14 t-black--light t-bold pl2 mb1">
+                    Yeni Eklenen
+                  </span>
+                  <li-icon
+                    aria-hidden="true"
+                    type="caret-filled-down-icon"
+                    class="artdeco-dropdown__trigger-icon"
+                    size="small"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      data-supported-dps="16x16"
+                      fill="currentColor"
+                      class="mercado-match"
+                      width="16"
+                      height="16"
+                      focusable="false"
+                    >
+                      <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                    </svg>
+                  </li-icon>
+                </button>
+                <div
+                  tabindex="-1"
+                  aria-hidden="true"
+                  id="ember217"
+                  class="artdeco-dropdown__content artdeco-dropdown--is-dropdown-element artdeco-dropdown__content--justification-left artdeco-dropdown__content--placement-bottom ember-view"
+                >
+                  <!---->
+                </div>
+              </div>
+            </div>
+            <!-- Arama -->
+            <div
+              class="display-flex align-items-center relative t-14 t-black--light t-normal"
+            >
+              <div
+                id="ember218"
+                class="artdeco-text-input artdeco-text-input--type-search artdeco-text-input--color-default ember-view"
+              >
+                <div
+                  id="ember219"
+                  class="artdeco-text-input--container ember-view"
+                >
+                  <input
+                    class="mn-connections__search-input artdeco-text-input--search artdeco-text-input--input"
+                    id="mn-connections-search-input"
+                    placeholder="İsme göre arama"
+                    aria-describedby=""
+                    type="search"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Ayırıcı -->
+            <hr class="artdeco-divider mo" />
+            <!-- Kişi Kartları -->
+            <div class="scaffold-finite-scroll scaffold-finite-scroll--finite">
+              <div class="scaffold-finite-scroll__content">
+                <!-- Kişi 1 -->
+                <ul>
+                  <!-- Kişi 1 -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href="../img/network.png"
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- İlk kişi kartının altına çizgi eklenmiştir -->
+                  <!-- Kişi 2 - Başlangıç -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href=""
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- İkinci kişi kartının altına çizgi eklenmiştir -->
+                  <!-- Kişi 3 - Başlangıç -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href=""
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- Üçüncü kişi kartının altına çizgi eklenmiştir -->
+                  <!-- Kişi 4 - Başlang
+                            <!-- Kişi 4 - Başlangıç -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href=""
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- Dördüncü kişi kartının altına çizgi eklenmiştir -->
+                  <!-- Kişi 5 - Başlangıç -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href=""
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- Beşinci kişi kartının altına çizgi eklenmiştir -->
+                  <!-- Kişi 1 -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href="../img/network.png"
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- İlk kişi kartının altına çizgi eklenmiştir -->
+                  <!-- Kişi 1 -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href="../img/network.png"
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- İlk kişi kartının altına çizgi eklenmiştir -->
+                  <!-- Kişi 1 -->
+                  <li class="mn-connection-card artdeco-list">
+                    <div>
+                      <div class="display-flex align-items-center">
+                        <!-- Kişi resmi -->
+                        <a
+                          href="../img/network.png"
+                          id="ember221"
+                          class="ember-view mn-connection-card__picture"
+                        >
+                          <img src="../img/network.png" alt="Kişi Resmi" />
+                        </a>
+                        <!-- Kişi detayları -->
+                        <div class="mn-connection-card__details">
+                          <!-- İsim ve meslek -->
+                          <a
+                            href="../img/network.png"
+                            id="ember223"
+                            class="ember-view mn-connection-card__link"
+                          >
+                            <!-- İsim: -->
+                            <span
+                              class="mn-connection-card__name t-16 t-black t-bold"
+                              >Mehmet Barış Güdül</span
+                            >
+                            <br />
+                            <!-- Meslek: -->
+                            <span
+                              class="mn-connection-card__occupation t-14 t-black--light t-normal"
+                              >Computer Engineer</span
+                            >
+                          </a>
+                        </div>
+                        <!-- Remove butonu -->
+                        <div class="mn-connection-card__action-container">
+                          <div class="entry-point">
+                            <div></div>
+                            <!-- Remove butonu -->
+                            <button
+                              aria-label="Mehmet Barış Güdül adlı kullanıcıyı bağlantıdan çıkar"
+                              id="ember224"
+                              class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"
+                            >
+                              <span class="artdeco-button__text">Remove</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <hr />
+                  <!-- İlk kişi kartının altına çizgi eklenmiştir -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+  </body>
+</html>
