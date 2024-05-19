@@ -1,6 +1,7 @@
 login sayfası --> https://srv1045-files.hstgr.io/eddf637dd06625d2/files/public_html/networth/LoginPage/
 ana sayfa ---> https://networth.website/networth/HomePage/HomePage.html
-not : login sayfasından girerek ilerleyebilirsiniz
+not : login sayfasından girerek ilerleyebilirsiniz.
+not: herhangi bir framework kullanmadık. Sadece sağ alt köşede beliren mesajlaşma kısmında bootstrap kullanıldı 
 
 
 1. Üye olma (Mehmet Barış Güdül)
