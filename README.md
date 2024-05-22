@@ -3,9 +3,9 @@
 <br><br>
 **Proje Kategorisi**: Sosyal Medya
 <br>
-**Referans uygulama**: linkedin.com
+**Referans uygulama**: [linkedin.com](https://www.linkedin.com/feed/)
 <br>
-**Uygulama adresi**: null
+**Uygulama adresi**: [NetWorth.com](https://networth.website/networth/HomePage/HomePage.html)
 <br>
 **Grup Adı**: NetWorth
 <br>
