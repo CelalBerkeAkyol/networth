@@ -19,7 +19,34 @@ let userRef = collection(firestore, "users");
 let likeRef = collection(firestore, "likes");
 let commentsRef = collection(firestore, "comments");
 let connectionRef = collection(firestore, "connections");
+let messageRef = collection(firestore,"messages");
+// Mesaj ekleme fonksiyonu
+export const postMessage = (messageContent, sender) => {
+  addDoc(messageRef, {
+    content: messageContent,
+    sender: sender,
+    timestamp: serverTimestamp(),
+  })
+    .then(() => {
+      toast.success("Message has been sent successfully");
+    })
+    .catch((err) => {
+      console.log(err);
+      toast.error("Failed to send message");
+    });
+};
 
+// Tüm mesajları alma ve dinleme fonksiyonu
+export const getMessages = (setMessages) => {
+  const q = query(messageRef, orderBy("timestamp"));
+  onSnapshot(q, (snapshot) => {
+    const messagesData = snapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+    setMessages(messagesData);
+  });
+};
 export const postStatus = (object) => {
   addDoc(postsRef, object)
     .then(() => {
@@ -61,6 +88,7 @@ export const getSingleStatus = (setAllStatus, id) => {
     );
   });
 };
+
 
 export const getSingleUser = (setCurrentUser, email) => {
   const singleUserQuery = query(userRef, where("email", "==", email));

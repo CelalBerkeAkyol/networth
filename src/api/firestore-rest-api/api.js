@@ -15,6 +15,7 @@ const port = 3000;
 
 app.use(express.json());
 app.use(cors());
+app.use(bodyParser.json());
 
 const postsRef = db.collection('posts');
 const userRef = db.collection('users');
@@ -228,7 +229,36 @@ app.delete('/connections/:userId/:targetId', async (req, res) => {
     res.status(500).send(err.message);
   }
 });
+app.post('/messages', async (req, res) => {
+  const { sender, content } = req.body;
+  const newMessage = { sender, content, timestamp: admin.firestore.FieldValue.serverTimestamp() };
+  const messageRef = await db.collection('messages').add(newMessage);
+  res.status(201).send({ id: messageRef.id, ...newMessage });
+});
 
+// Tüm mesajları getirme
+app.get('/messages', async (req, res) => {
+  const snapshot = await db.collection('messages').orderBy('timestamp').get();
+  const messages = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  res.status(200).send(messages);
+});
+
+// Belirli bir mesajı getirme
+app.get('/messages/:id', async (req, res) => {
+  const { id } = req.params;
+  const doc = await db.collection('messages').doc(id).get();
+  if (!doc.exists) {
+    return res.status(404).send({ error: 'Message not found' });
+  }
+  res.status(200).send({ id: doc.id, ...doc.data() });
+});
+
+// Belirli bir mesajı silme
+app.delete('/messages/:id', async (req, res) => {
+  const { id } = req.params;
+  await db.collection('messages').doc(id).delete();
+  res.status(200).send({ message: 'Message deleted' });
+});
 
 // Sunucuyu başlatma
 app.listen(port, () => {
