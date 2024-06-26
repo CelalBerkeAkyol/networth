@@ -5,6 +5,7 @@ import HomeLayout from "../layouts/HomeLayout";
 import ProfileLayout from "../layouts/ProfileLayout";
 import ConnectionLayout from "../layouts/ConnectionLayout";
 import MessageLayout from "../layouts/MessageLayout";
+import ConnectionTableLayout from "../layouts/ConnectionsTableLayout"
 
 export const router = createBrowserRouter([
   {
