@@ -75,4 +75,43 @@
     width: 320px;
     line-height: 20px;
   }
+  /*Baris*/
+  .connections-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    button {
+      padding: 10px 20px;
+      background-color: #004c75;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #003652;
+    }
+}
+.block-user {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+
+  button {
+    padding: 10px 20px;
+    background-color: #003652; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #003652; 
+  }
+}
 }

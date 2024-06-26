@@ -1,10 +1,11 @@
 import React, { useState, useMemo } from "react";
 import { getSingleStatus, getSingleUser } from "../../../api/FirestoreAPI";
 import PostsCard from "../PostsCard";
-import { HiOutlinePencil } from "react-icons/hi";
+import { HiOutlinePencil,HiOutlineBan } from "react-icons/hi";
 import { useLocation } from "react-router-dom";
 import FileUploadModal from "../FileUploadModal";
 import { uploadImage as uploadImageAPI } from "../../../api/ImageUpload";
+import { Link } from "react-router-dom";
 import "./index.scss";
 
 export default function ProfileCard({ onEdit, currentUser }) {
@@ -37,7 +38,12 @@ export default function ProfileCard({ onEdit, currentUser }) {
       getSingleUser(setCurrentProfile, location?.state?.email);
     }
   }, []);
-
+/* BARİS */
+const handleBlockUser = () => {
+  // Burada engelleme işlemi gerçekleştirilebilir
+  console.log(`Kullanıcı ${currentProfile.name || currentUser.name} engellendi.`);
+  // Örneğin bir API çağrısı ile engelleme işlemi yapılabilir
+};
   return (
     <>
       <FileUploadModal
@@ -135,6 +141,21 @@ export default function ProfileCard({ onEdit, currentUser }) {
           </p>
         ) : (
           <></>
+        )}
+        {currentUser.id !== location?.state?.id && (
+          <div className="block-user">
+            <button onClick={handleBlockUser}>
+              <HiOutlineBan className="block-icon" /> Block User
+            </button>
+          </div>
+        )}
+        
+        {currentUser.id === location?.state?.id && (
+          <div className="connections-button">
+            <Link to="/connectionstable">
+              <button>Connections Table</button>
+            </Link>
+          </div>
         )}
       </div>
 

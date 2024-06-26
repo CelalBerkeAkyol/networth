@@ -31,4 +31,8 @@ export const router = createBrowserRouter([
     path: "/chat",
     element: <MessageLayout />,
   },
+  {
+    path: "/connectionstable",
+    element:<ConnectionTableLayout/>
+  },
 ]);

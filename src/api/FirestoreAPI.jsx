@@ -250,3 +250,54 @@ export const getConnections = (userId, targetId, setIsConnected) => {
     console.log(err);
   }
 };
+export const removeConnection = (userId, targetId) => {
+  try {
+    const connectionDocId = `${userId}_${targetId}`;
+    const connectionToDelete = doc(connectionRef, connectionDocId);
+
+    deleteDoc(connectionToDelete);
+
+    toast.success("Connection Removed!");
+  } catch (err) {
+    console.log(err);
+  }
+};
+export const blockUser = (userId, targetId) => {
+  try {
+    const blockDocId = `${userId}_${targetId}`;
+    const blockRef = doc(collection(firestore, "blocks"), blockDocId);
+
+    setDoc(blockRef, { userId, targetId });
+
+    toast.success("User Blocked!");
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+export const unblockUser = (userId, targetId) => {
+  try {
+    const blockDocId = `${userId}_${targetId}`;
+    const blockRef = doc(collection(firestore, "blocks"), blockDocId);
+
+    deleteDoc(blockRef);
+
+    toast.success("User Unblocked!");
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+export const checkBlocked = async (userId, targetId) => {
+  try {
+    const blockDocId = `${userId}_${targetId}`;
+    const blockRef = doc(collection(firestore, "blocks"), blockDocId);
+
+    const docSnap = await getDoc(blockRef);
+    return docSnap.exists;
+  } catch (err) {
+    console.log(err);
+    return false;
+  }
+};
+
