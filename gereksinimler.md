@@ -2,8 +2,8 @@
 1. Üye olma (Mehmet Barış Güdül) <br>
 2. Giriş yapma (Mehmet Barış Güdül) <br>
 3. Profil oluşturma (Mehmet Barış Güdül) <br> 
-4. Profil düzenleme (Emre Akcan)  <br>
-5. Profil fotoğrafı ayarlama (Emre Akcan) <br>
+4. Profil düzenleme (Mehmet Barış Güdül)  <br>
+5. Profil fotoğrafı ayarlama (Mehmet Barış Güdül) <br>
 6. Arama (Ali Önsöz) <br>
 7. Profil görüntüleme (Ali Önsöz) <br>
 8. Bağlantı kurmak (Ali Önsöz) <br>
@@ -22,7 +22,7 @@
 21. Gönderi oluşturma (Ali Önsöz)  <br>
 22. Gönderi silme (Ali Önsöz) <br>
 23. Gönderiye yorum yapma (Ali Önsöz) <br>
-24. Gönderi paylaşma (Emre Akcan)
+24. Gönderi paylaşma (Mehmet Barış Güdül)
 <br>
 <h2>Gereksinim Dağılımları</h2>
 
