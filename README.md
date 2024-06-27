@@ -18,7 +18,7 @@
 [3- Durum Diyagram](durum-diyagramı.md)<br>
 [4- Durum Senaryoları](kullanıcı-durum-senaryoları.md)<br>
 [5- Veri Tabanı Diyagramı](veri-tabanı-diyagramı.md) <br>
-[6- Front-end ](NetworthDosyalar/src/Sass)<br>
+[6- Front-end ](FrontEnd)<br>
 [7- Back-end](NetworthDosyalar)<br>
 [8- Test](test.md)<br>
 [9- Kullanıcı ve Geliştirici Dökümantasyonu](kullanici-gelistirici-dokumantasyon.md)<br>
