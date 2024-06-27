@@ -8,4 +8,5 @@
 6. Kullanıcı Engelleme: İstenmeyen kullanıcıları engelleme imkanı sağlanır.
 7. Profil Düzenleme : Kişiler profil bilgilerini hızlı bir şekilde güncellemek/değiştirmek için profil düzenleme işlevini kullanabilir.
 8. Profil Fotoğrafı Ayarlama:Profil fotoğrafınızı değiştirmek veya güncellemek için profil fotoğrafı ayarlama işlevini kullanabilir.
+9. Gönderi Oluşturma:Metin, fotoğraf, video veya bağlantı içeren gönderileri düzenleyip /ayarlıyıp paylaşmaya hazırlamak için kullanılır.
 9. Gönderi Paylaşma:Beğendiğiniz , ilginç bulduğunuz veya kendi içeriklerinizi kendi profilinizde herkese veya arkadaşlarınıza paylaşmak için kullanılır.
