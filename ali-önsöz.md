@@ -11,3 +11,9 @@
 5-Mesaj gönderme: Kullanıcılar platform içerisindeki diğer kullanıcılar ile mesajlaşabilir. Mesaj gönderebilir mesaj alabilir.
 <br>
 6-Mesaj filtreleme: Kullanıcılar aldıkları mesajların kimden geldiğini görebilir : Bağlantılı kullanıcıdan, şirketlerden, okuldan, diğer kullanıcılardan.
+<br>
+7-Gönderiye Yorum Yapma: Diğer kullanıcıların gönderilerine yanıt vermek veya yorum yapmak için kullanılır.
+<br>
+8-Gönderi Silme:Yanlışlıkla paylaştığınız veya artık geçerli olmayan içerikleri kaldırmaktadır.
+<br>
+9-Gönderi Oluşturma:Metin, fotoğraf, video veya bağlantı içeren gönderileri düzenleyip /ayarlıyıp paylaşmaya hazırlamak için kullanılır.
