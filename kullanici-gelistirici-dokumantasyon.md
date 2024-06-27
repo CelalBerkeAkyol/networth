@@ -1,3 +1,3 @@
 <h2>Mehmet Barış Güdül</h2>
-[Kullanıcı Dökümantasyonu](https://app.gitbook.com/o/ve935qNyTX2TsANmMOAP/s/w0oXpnX0obZOp9gSZltC/)
+[Kullanıcı Dökümantasyonu](https://bariss-new-organization.gitbook.io/mehmet-baris-gudul-kullanici-dokumantasyonu/)
 [Geliştirici Dökümantasyonu](https://app.gitbook.com/o/ve935qNyTX2TsANmMOAP/s/mktG1br5dl0JLkmfQuYQ/)
