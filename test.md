@@ -13,3 +13,4 @@ Yorum (https://github.com/CelalBerkeAkyol/networth/assets/111945729/72951120-4b7
 Bağlantı (https://github.com/CelalBerkeAkyol/networth/assets/111945729/d5c89a4b-f9b3-4a29-9d46-657a2cd5b7d8)
 <br>
 Beğenme (https://github.com/CelalBerkeAkyol/networth/assets/111945729/69d4df45-7033-4bbe-8ea7-0447dcf00ffa)
+
