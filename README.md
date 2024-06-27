@@ -5,7 +5,7 @@
 <br>
 **Referans uygulama**: [linkedin.com](https://www.linkedin.com/feed/)
 <br>
-**Uygulama adresi**: [NetWorth.com](https://networth.website/networth/HomePage/HomePage.html)
+**Uygulama adresi**: [NetWorth.com](https://networth.website/)
 <br>
 **Grup Adı**: NetWorth
 <br>
