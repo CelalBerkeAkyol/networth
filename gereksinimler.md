@@ -19,10 +19,10 @@
 18. Kullanıcı engelleme (Mehmet Barış Güdül) <br>
 19. Mesaj gönderme (Ali Önsöz)<br>
 20. Mesaj filtreleme (Ali Önsöz)<br>
-21. Gönderi oluşturma (Ali Önsöz)  <br>
+21. Gönderi oluşturma (Mehmet Barış Güdül)  <br>
 22. Gönderi silme (Ali Önsöz) <br>
 23. Gönderiye yorum yapma (Ali Önsöz) <br>
-24. Gönderi paylaşma (Mehmet Barış Güdül)
+24. Gönderi paylaşma (Ali Önsöz)
 <br>
 <h2>Gereksinim Dağılımları</h2>
 
