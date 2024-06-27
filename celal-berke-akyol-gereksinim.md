@@ -1,12 +1,24 @@
 <h1>// Celal Berke Akyol'un Gereksinimleri</h1>
-1-Arama: Kullanıcılar site üzerinde kişi, şirket, grup ve okul arması yapabilecek. 
 <br>
-2-Kullanıcı önerme: Arkadaşlarından, okuduğu okuldan, şirketinden vb durumlardan yola çıkarak kullanıcıya bağlantı kurmak isteyeceği kullanıcılar önerilir.
+Gruptakilerin Listelenmesi:
+Bu özellik, kullanıcıların bir grupta bulunan diğer üyeleri görmelerine olanak tanır. Gruptaki üyelerin adları, profil resimleri veya diğer ilgili bilgiler bu listede yer alabilir. Bu, kullanıcıların gruptaki diğer üyelerle iletişim kurmalarını kolaylaştırır.
 <br>
-3-Profil görüntüleme: Kullanıcı aradığı veya öneri ile karşısına çıktığı kullanıcının profiline girerek detaylı bilgi edinebilir. 
 <br>
-4-Bağlantı kurma :Kullanıcı platform üzerinden bulduğu diğer bir kullanıcı ile bağlantı kurabilir. Bağlantı kurduğu kişinin son gelişmelerinden anında haberdar olabilir. 
+Grup Oluşturma:
+Kullanıcıların kendi gruplarını oluşturmalarına izin veren bir özelliktir. Kullanıcılar, grup adını, açıklamayı ve gizlilik ayarlarını belirleyebilir. Bu, belirli bir konu, ilgi alanı veya etkinlik etrafında topluluk oluşturmak isteyen kullanıcılar için önemlidir.
 <br>
-5-Mesaj gönderme: Kullanıcılar platform içerisindeki diğer kullanıcılar ile mesajlaşabilir. Mesaj gönderebilir mesaj alabilir.
 <br>
-6-Mesaj filtreleme: Kullanıcılar aldıkları mesajların kimden geldiğini görebilir : Bağlantılı kullanıcıdan, şirketlerden, okuldan, diğer kullanıcılardan.
+Gruba Katılma:
+Bu özellik, kullanıcıların mevcut gruplara katılmalarına olanak tanır. Gruba katılmak isteyen kullanıcılar, grup yöneticisinin onayını bekleyebilir veya belirli bir davet bağlantısı aracılığıyla doğrudan gruba katılabilirler.
+<br>
+<br>
+Gruptan Çıkma:
+Kullanıcıların bir gruptan çıkabilmelerini sağlayan bir özelliktir. Bu, kullanıcıların bir gruptan ayrılmak istediklerinde kolayca yapabilmelerini sağlar. Çıkma işlemi genellikle kullanıcının onayını gerektirir.
+<br>
+<br>
+Grup Silme:
+Grup yöneticilerinin veya belirli izinlere sahip kullanıcıların bir grup oluşturduktan sonra bu grubu silmelerine olanak tanıyan bir özelliktir. Bu, gereksiz veya kullanılmayan grupları temizleme imkanı sağlar.
+<br>
+<br>
+Şikayet Etme:
+Kullanıcıların uygunsuz içerik, spam veya diğer ihlalleri bildirmelerini sağlayan bir özelliktir. Bu, web sitesinin güvenliğini ve kullanıcı deneyimini artırmak için önemlidir. Kullanıcıların şikayetlerini iletmek için bir form veya iletişim kanalı genellikle bulunur.
