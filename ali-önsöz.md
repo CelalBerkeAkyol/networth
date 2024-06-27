@@ -16,4 +16,4 @@
 <br>
 8-Gönderi Silme:Yanlışlıkla paylaştığınız veya artık geçerli olmayan içerikleri kaldırmaktadır.
 <br>
-
+9. Gönderi Paylaşma:Beğendiğiniz , ilginç bulduğunuz veya kendi içeriklerinizi kendi profilinizde herkese veya arkadaşlarınıza paylaşmak için kullanılır.
