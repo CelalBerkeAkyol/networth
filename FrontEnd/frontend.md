@@ -23,5 +23,5 @@
 8. Kullanıcı engelleme (Mehmet Barış Güdül) <br>
 9. Gönderi oluşturma (Mehmet Barış Güdül)  <br>
 
-[FrontEnd components Dosyaları](../FrontEnd/components)
+[FrontEnd components Dosyaları](../FrontEnd/components)<br>
 [FrontEnd scss Dosyaları](../FrontEnd/Sass)
