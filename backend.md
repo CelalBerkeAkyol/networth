@@ -12,7 +12,6 @@
 9. Gönderi oluşturma (Mehmet Barış Güdül)  <br>
 
 <h3>Ali Önsöz Kodlama</h3><br>
-
 1. Arama (Ali Önsöz) <br>
 2. Profil görüntüleme (Ali Önsöz) <br>
 3. Bağlantı kurmak (Ali Önsöz) <br>
