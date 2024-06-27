@@ -16,4 +16,4 @@
 <br>
 8-Gönderi Silme:Yanlışlıkla paylaştığınız veya artık geçerli olmayan içerikleri kaldırmaktadır.
 <br>
-9-Gönderi Oluşturma:Metin, fotoğraf, video veya bağlantı içeren gönderileri düzenleyip /ayarlıyıp paylaşmaya hazırlamak için kullanılır.
+
