@@ -1,0 +1,62 @@
+.grid-child {
+    border: 1px solid #bbbbbb;
+    width: 250px;
+    height: 330px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .grid-child img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  
+  .grid-child .name {
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .grid-child .headline {
+    margin-top: -15px;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .grid-child button {
+    width: calc(100% - 20px);
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #004284;
+    border: 1px solid #004284;
+    font-size: 16px;
+    font-family: system-ui;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    z-index: 1; /* Butonun düzgün şekilde katmanlandırılması için */
+  }
+  
+  .grid-child button:hover {
+    border: 2px solid #004284;
+    background-color: #bbdefb;
+  }
+  
